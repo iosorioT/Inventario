@@ -94,6 +94,7 @@ Public Class frmAddUpdateCategory
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        'Comentario prueba commit
         If frmCategory.adding = True Then
             AddCategory()
             Me.Close()
