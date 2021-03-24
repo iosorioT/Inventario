@@ -113,6 +113,8 @@ Public Class frmAddUpdateProduct
     End Sub
 
     Private Sub frmAddUpdateProduct_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        'Comentario prueba
+
         If frmProduct.adding = True Then
             Label1.Text = "Agregar Producto"
             ClearFields()
